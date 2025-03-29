@@ -5,7 +5,7 @@ import requests
 images = os.listdir('images')
 
 
-bot = telebot.TeleBot('7663125275:AAEOh5TO84wldZCSM71hX2bs-ZvZO-I31l8')
+bot = telebot.TeleBot('')
 
 @bot.message_handler(commands=['meme'])
 def send_meme(massege):
